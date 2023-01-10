@@ -1,0 +1,49 @@
+*{
+    box-sizing:40%;
+}
+.inputimage{
+    box-sizing: 400px;
+    background-color: antiquewhite;
+}
+.imagecontainer{
+ box-sizing: 250px;
+}
+.btnsubmit{
+    margin-top: 12px;
+    box-sizing: 50px;
+    color: blue;
+    background-color: aquamarine;
+    font-size: larger;
+}
+@media(max-width:998px){
+    .imagecontainer{
+        font-size: 55%;
+    }
+}
+@media(max-width:764px){
+    .imagecontainer{
+        font-size: 45%;
+        box-sizing: 55%;
+    }
+    .inputimage{
+        box-sizing: 55%;
+    }
+}
+@media(max-width:664px){
+    .btnsubmit{
+        box-sizing: 45%;
+        color: antiquewhite;
+    }
+    .inputimage{
+        box-sizing: 40%;
+    }
+}
+@media(max-width:300px){
+    .btnsubmit{
+        box-sizing: 30%;
+        color: antiquewhite;
+    }
+    .inputimage{
+        box-sizing: 30%;
+    }
+}
